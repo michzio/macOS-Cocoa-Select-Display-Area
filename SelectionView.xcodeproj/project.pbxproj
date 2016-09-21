@@ -7,17 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8494D0071D91F86F009E8461 /* crosshairCursorBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 8494D0061D91F86F009E8461 /* crosshairCursorBig.png */; };
 		84C0A7031D902B2B009B62FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0A7021D902B2B009B62FB /* AppDelegate.swift */; };
 		84C0A7051D902B2B009B62FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C0A7041D902B2B009B62FB /* Assets.xcassets */; };
 		84C0A7081D902B2C009B62FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0A7061D902B2C009B62FB /* MainMenu.xib */; };
+		84C0A7151D903071009B62FB /* SelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0A7141D903071009B62FB /* SelectionView.m */; };
+		84C0A7191D911FBA009B62FB /* SelectionWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0A7181D911FBA009B62FB /* SelectionWindow.m */; };
+		84C0A7201D91E211009B62FB /* crosshairCursor.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C0A71F1D91E211009B62FB /* crosshairCursor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8494D0061D91F86F009E8461 /* crosshairCursorBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshairCursorBig.png; sourceTree = "<group>"; };
 		84C0A6FF1D902B2B009B62FB /* SelectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C0A7021D902B2B009B62FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C0A7041D902B2B009B62FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C0A7071D902B2C009B62FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		84C0A7091D902B2C009B62FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C0A7131D903071009B62FB /* SelectionView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelectionView-Bridging-Header.h"; sourceTree = "<group>"; };
+		84C0A7141D903071009B62FB /* SelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionView.m; sourceTree = "<group>"; };
+		84C0A7161D903868009B62FB /* SelectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionView.h; sourceTree = SOURCE_ROOT; };
+		84C0A7171D911FA0009B62FB /* SelectionWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionWindow.h; sourceTree = "<group>"; };
+		84C0A7181D911FBA009B62FB /* SelectionWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionWindow.m; sourceTree = "<group>"; };
+		84C0A71B1D917D4F009B62FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C0A71D1D918078009B62FB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84C0A71F1D91E211009B62FB /* crosshairCursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshairCursor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			children = (
 				84C0A7011D902B2B009B62FB /* SelectionView */,
 				84C0A7001D902B2B009B62FB /* Products */,
+				84C0A71A1D917D4F009B62FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,12 +64,28 @@
 		84C0A7011D902B2B009B62FB /* SelectionView */ = {
 			isa = PBXGroup;
 			children = (
-				84C0A7021D902B2B009B62FB /* AppDelegate.swift */,
-				84C0A7041D902B2B009B62FB /* Assets.xcassets */,
 				84C0A7061D902B2C009B62FB /* MainMenu.xib */,
 				84C0A7091D902B2C009B62FB /* Info.plist */,
+				84C0A7041D902B2B009B62FB /* Assets.xcassets */,
+				84C0A7161D903868009B62FB /* SelectionView.h */,
+				84C0A7141D903071009B62FB /* SelectionView.m */,
+				84C0A7021D902B2B009B62FB /* AppDelegate.swift */,
+				84C0A7131D903071009B62FB /* SelectionView-Bridging-Header.h */,
+				84C0A7171D911FA0009B62FB /* SelectionWindow.h */,
+				84C0A7181D911FBA009B62FB /* SelectionWindow.m */,
+				8494D0061D91F86F009E8461 /* crosshairCursorBig.png */,
+				84C0A71F1D91E211009B62FB /* crosshairCursor.png */,
 			);
 			path = SelectionView;
+			sourceTree = "<group>";
+		};
+		84C0A71A1D917D4F009B62FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C0A71D1D918078009B62FB /* AppKit.framework */,
+				84C0A71B1D917D4F009B62FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +120,7 @@
 				TargetAttributes = {
 					84C0A6FE1D902B2B009B62FB = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -117,8 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C0A7201D91E211009B62FB /* crosshairCursor.png in Resources */,
 				84C0A7051D902B2B009B62FB /* Assets.xcassets in Resources */,
 				84C0A7081D902B2C009B62FB /* MainMenu.xib in Resources */,
+				8494D0071D91F86F009E8461 /* crosshairCursorBig.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C0A7191D911FBA009B62FB /* SelectionWindow.m in Sources */,
 				84C0A7031D902B2B009B62FB /* AppDelegate.swift in Sources */,
+				84C0A7151D903071009B62FB /* SelectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,11 +276,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SelectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.remote-controller.SelectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SelectionView/SelectionView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -254,11 +292,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SelectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.remote-controller.SelectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SelectionView/SelectionView-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -282,6 +322,7 @@
 				84C0A70E1D902B2C009B62FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
